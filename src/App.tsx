@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './styles/main.css';
+import HeroSection from './components/HeroSection';
 
 interface AppProps {}
 
 const App = () => {
   return (
     <div>
-      <h1>INTERACTIVE CONCERT EXPERIENCE</h1>
+      <HeroSection />
     </div>
   );
 };
